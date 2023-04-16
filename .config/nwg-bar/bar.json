@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Fullscreen",
+    "exec": "swaymsg fullscreen",
+    "icon": "/usr/share/nwg-bar/images/system-lock-screen.svg"
+  },
+  {
+    "label": "Terminal",
+    "exec": "foot",
+    "icon": "/usr/share/nwg-bar/images/system-log-out.svg"
+  },
+  {
+    "label": "Browser",
+    "exec": "falkon",
+    "icon": "/usr/share/nwg-bar/images/system-log-out.svg"
+  },
+  {
+    "label": "Rotate",
+    "exec": "scripts/change-nwg-bar.sh rotate.json",
+    "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
+  },
+  {
+    "label": "Shutdown",
+    "exec": "scripts/change-nwg-bar.sh power.json",
+    "icon": "/usr/share/nwg-bar/images/system-shutdown.svg"
+  }
+]

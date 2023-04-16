@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Up",
+    "exec": "scripts/rotate-sway.sh 0",
+    "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
+  },
+  {
+    "label": "Right",
+    "exec": "scripts/rotate-sway.sh 90",
+    "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
+  },
+  {
+    "label": "Down",
+    "exec": "scripts/rotate-sway.sh 180",
+    "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
+  },
+  {
+    "label": "Left",
+    "exec": "scripts/rotate-sway.sh 270",
+    "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
+  }
+]
